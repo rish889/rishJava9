@@ -18,5 +18,19 @@
 
     </dependencies>
 
+    <build>
+        <plugins>
+            <!--For Setting Intellij Language Level-->
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.9</source>
+                    <target>1.9</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
 
 </project>
